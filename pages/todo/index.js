@@ -30,7 +30,7 @@ function salvarTarefa(e) {
 
 function mostrarTarefa() {
     const div = document.createElement('div')
-    const main = document.querySelector('.lista')
+    const main = document.querySelector('main')
     const h1 = document.createElement('h1')
     const p = document.createElement('p')
     const tarefas = JSON.parse(localStorage.getItem('tarefas'))
