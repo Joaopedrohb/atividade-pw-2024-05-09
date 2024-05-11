@@ -1,0 +1,89 @@
+/* Reset de estilos para garantir consistência em diferentes navegadores */
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form label {
+    margin: 5px;
+}
+
+form input {
+    margin: 5px;
+}
+
+form textarea {
+    margin: 5px;
+}
+
+div {
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+input::placeholder {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+textarea::placeholder {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+#botao {
+    background-color: #0074d9;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 16px;
+}
